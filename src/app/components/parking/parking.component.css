@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(60px, auto);
+}
+
+.bahias{
+    width: 80px;
+    height: 100px;
+    border: none;
+}
+
+.ocupado{
+    background-color: red;
+}
+
+.ocupado:hover{
+    background-color: rgb(160, 0, 0);
+}
+
+.disponible{
+    background-color: green;
+}
+
+.disponible:hover{
+    background-color: rgb(0, 68, 0);
+}
